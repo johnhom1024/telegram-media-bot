@@ -1,0 +1,11 @@
+api_hash: xxxxxxx
+api_id: xxxxxxx
+bot_token: xxxxxx
+save_path: ./downloads
+file_path_prefix:
+- message_id
+max_parallel_download: 2
+# proxy:
+#   socks_type: 5
+#   ip: "192.168.31.210"
+#   port: 7221

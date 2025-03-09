@@ -1,0 +1,38 @@
+{
+  "name": "telegram-auto-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start:prod": "node dist/index.js",
+    "start": "esno --watch src/index.ts",
+    "test": "vitest",
+    "sync": "esno script/sync.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.52",
+    "dayjs": "^1.11.13",
+    "deepmerge": "^4.3.1",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "telegram": "^2.26.8",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/js-yaml": "^4.0.9",
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^22.10.2",
+    "esno": "^4.8.0",
+    "ignore": "^7.0.3",
+    "typed-emitter": "^2.1.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
